@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width = "fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity = "center_horizontal|center_vertical">
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_fighter"
+        android:textSize="25sp"
+        android:layout_marginBottom="20sp"/>
+    <Button 
+        android:layout_width = "100sp"
+        android:layout_height = "wrap_content"
+        android:id="@+id/btnScorpion"
+        android:text="@string/Scorpion"/>
+    <Button 
+        android:layout_width = "100sp"
+        android:layout_height = "wrap_content"
+        android:id="@+id/btnSubZero"
+        android:text="@string/SubZero"/>
+    <Button 
+        android:layout_width = "100sp"
+        android:layout_height = "wrap_content"
+        android:id="@+id/btnKungLao"
+        android:text="@string/KungLao"/>
+    <Button 
+        android:layout_width = "100sp"
+        android:layout_height = "wrap_content"
+        android:id="@+id/btnSonya"
+        android:text="@string/Sonya"/>
+</LinearLayout>
